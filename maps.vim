@@ -14,6 +14,16 @@ nnoremap <A-l> <C-w>l
 nnoremap <A-h> <C-w>h
 nnoremap <A-v> :vsplit<CR>
 
-" Terminal
 
+" Navigation in tabs
+nnoremap <Tab> :bnext<CR>
+nnoremap <S-Tab> :bprev<CR>
+
+"keys telescope buscar archivos
+nnoremap <C-p> <cmd>Telescope find_files<CR>
+nnoremap <A-f> <cmd>Telescope live_grep<cr>
+nnoremap <leader>fb <cmd>Telescope buffers<cr>
+nnoremap <leader>fh <cmd>Telescope help_tags<cr>
+" Terminal
 tnoremap <Esc> <C-\><C-n>
+

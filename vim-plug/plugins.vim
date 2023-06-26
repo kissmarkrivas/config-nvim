@@ -16,10 +16,12 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	" color schemes
 	Plug 'morhetz/gruvbox'
 	Plug 'arcticicestudio/nord-vim'
+	Plug 'joshdick/onedark.vim' 		"tema
 
 	" nvim-tree
 	Plug 'nvim-tree/nvim-tree.lua'
 	Plug 'nvim-tree/nvim-web-devicons' "opcional para los iconos
+	Plug 'Yggdroot/indentLine' 		"indentacion
 	"codigo auto completo
 	Plug 'neoclide/coc.nvim', {'branch': 'release'}
 	
@@ -31,5 +33,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	
 	" terminal
 	Plug 'akinsho/toggleterm.nvim',{'tag': '*'}
-
+	
+	"telescope
+	Plug 'nvim-lua/plenary.nvim'
+	Plug 'nvim-telescope/telescope.nvim', { 'tag': '0.1.1' }
+	" or                                , { 'branch': '0.1.x' }
 call plug#end()
