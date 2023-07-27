@@ -1,0 +1,2 @@
+--require("fidget").setup({})
+--require('fidget.nvim').legacy.setup()
