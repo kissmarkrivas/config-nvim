@@ -1,1 +1,3 @@
-require("charliesbot.packer")
+
+require("charliesbot.lazy")
+-- require("charliesbot.packer")
